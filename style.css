@@ -4,6 +4,21 @@ body {
 }
 
 /* recipes page */
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 .searchResults {
     display: flex;
     justify-content: flex-start;
